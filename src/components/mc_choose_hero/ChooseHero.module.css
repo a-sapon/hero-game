@@ -1,0 +1,52 @@
+.container {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+.title {
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-style: italic;
+  text-shadow: 3px 3px #000;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.fighters {
+  display: flex;
+  max-width: 730px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.fighter {
+  cursor: pointer;
+  margin: 0 4px 4px 0;
+}
+
+.fighter:nth-child(15),
+.fighter:nth-child(20) {
+  margin-left: 104px;
+}
+
+.fighter:nth-child(19),
+.fighter:nth-child(24) {
+  margin-right: 104px;
+}
+
+.fighter img {
+  width: 100px;
+  height: 100px;
+}
+
+.gif {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 204px;
+}

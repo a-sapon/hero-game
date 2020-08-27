@@ -1,0 +1,169 @@
+[
+  {
+    "id": "1",
+    "name": "Rain",
+    "avatar": "/images/Rain.jpg",
+    "gif": "/gifs/Rain_show.gif",
+    "vs": "/images/Rain_vs.png"
+  },
+  {
+    "id": "2",
+    "name": "Reptile",
+    "avatar": "/images/Reptile.jpg",
+    "gif": "/gifs/Reptile_show.gif",
+    "vs": "/images/Reptile_vs.png"
+  },
+  {
+    "id": "3",
+    "name": "Stryker",
+    "avatar": "/images/Stryker.jpg",
+    "gif": "/gifs/Stryker_show.gif",
+    "vs": "/images/Stryker_vs.png"
+  },
+  {
+    "id": "4",
+    "name": "Jax",
+    "avatar": "/images/Jax.jpg",
+    "gif": "/gifs/Jax_show.gif",
+    "vs": "/images/Jax_vs.png"
+  },
+  {
+    "id": "5",
+    "name": "Nightwolf",
+    "avatar": "/images/Nightwolf.jpg",
+    "gif": "/gifs/Nightwolf_show.gif",
+    "vs": "/images/Nightwolf_vs.png"
+  },
+  {
+    "id": "6",
+    "name": "Jade",
+    "avatar": "/images/Jade.jpg",
+    "gif": "/gifs/Jade_show.gif",
+    "vs": "/images/Jade_vs.png"
+  },
+  {
+    "id": "7",
+    "name": "Bi-Han",
+    "avatar": "/images/Bi-Han.jpg",
+    "gif": "/gifs/Bi-Han_show.gif",
+    "vs": "/images/Bi-Han_vs.png"
+  },
+  {
+    "id": "8",
+    "name": "Sonya",
+    "avatar": "/images/Sonya.jpg",
+    "gif": "/gifs/Sonya_show.gif",
+    "vs": "/images/Sonya_vs.png"
+  },
+  {
+    "id": "9",
+    "name": "Kano",
+    "avatar": "/images/Kano.jpg",
+    "gif": "/gifs/Kano_show.gif",
+    "vs": "/images/Kano_vs.png"
+  },
+  {
+    "id": "10",
+    "name": "Mileena",
+    "avatar": "/images/Mileena.jpg",
+    "gif": "/gifs/Mileena_show.gif",
+    "vs": "/images/Mileena_vs.png"
+  },
+  {
+    "id": "11",
+    "name": "center",
+    "avatar": "/images/center.jpg",
+    "disabled": true
+  },
+  {
+    "id": "12",
+    "name": "Kuai-Liang",
+    "avatar": "/images/Kuai-Liang.jpg",
+    "gif": "/gifs/Kuai-Liang_show.gif",
+    "vs": "/images/Kuai-Liang_vs.png"
+  },
+  {
+    "id": "13",
+    "name": "Subzero",
+    "avatar": "/images/Subzero.jpg",
+    "gif": "/gifs/Subzero_show.gif",
+    "vs": "/images/Subzero_vs.png"
+  },
+  {
+    "id": "14",
+    "name": "Kung-Lao",
+    "avatar": "/images/Kung-Lao.jpg",
+    "gif": "/gifs/Kung-Lao_show.gif",
+    "vs": "/images/Kung-Lao_vs.png"
+  },
+  {
+    "id": "15",
+    "name": "Sector",
+    "avatar": "/images/Sector.jpg",
+    "gif": "/gifs/Sector_show.gif",
+    "vs": "/images/Sector_vs.png"
+  },
+  {
+    "id": "16",
+    "name": "Kitana",
+    "avatar": "/images/Kitana.jpg",
+    "gif": "/gifs/Kitana_show.gif",
+    "vs": "/images/Kitana_vs.png"
+  },
+  {
+    "id": "17",
+    "name": "Ermac",
+    "avatar": "/images/Ermac.jpg",
+    "gif": "/gifs/Ermac_show.gif",
+    "vs": "/images/Ermac_vs.png"
+  },
+  {
+    "id": "18",
+    "name": "Scorpion",
+    "avatar": "/images/Scorpion.jpg",
+    "gif": "/gifs/Scorpion_show.gif",
+    "vs": "/images/Scorpion_vs.png"
+  },
+  {
+    "id": "19",
+    "name": "Cyrax",
+    "avatar": "/images/Cyrax.jpg",
+    "gif": "/gifs/Cyrax_show.gif",
+    "vs": "/images/Cyrax_vs.png"
+  },
+  {
+    "id": "20",
+    "name": "Kabal",
+    "avatar": "/images/Kabal.jpg",
+    "gif": "/gifs/Kabal_show.gif",
+    "vs": "/images/Kabal_vs.png"
+  },
+  {
+    "id": "21",
+    "name": "Sindel",
+    "avatar": "/images/Sindel.jpg",
+    "gif": "/gifs/Sindel_show.gif",
+    "vs": "/images/Sindel_vs.png"
+  },
+  {
+    "id": "22",
+    "name": "Smoke",
+    "avatar": "/images/Smoke.jpg",
+    "gif": "/gifs/Smoke_show.gif",
+    "vs": "/images/Smoke_vs.png"
+  },
+  {
+    "id": "23",
+    "name": "Liu-Kang",
+    "avatar": "/images/Liu-Kang.jpg",
+    "gif": "/gifs/Liu-Kang_show.gif",
+    "vs": "/images/Liu-Kang_vs.png"
+  },
+  {
+    "id": "24",
+    "name": "Shang-Tsung",
+    "avatar": "/images/Shang-Tsung.jpg",
+    "gif": "/gifs/Shang-Tsung_show.gif",
+    "vs": "/images/Shang-Tsung_vs.png"
+  }
+]
