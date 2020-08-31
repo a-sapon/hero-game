@@ -1,0 +1,61 @@
+.wrapper {
+  background-color: #232428;
+}
+
+.container {
+  background-image: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  width: 1300px;
+  height: 640px;
+  position: relative;
+}
+
+.fighter1, .fighter2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.fighter1 {
+  left: 140px;
+}
+
+.fighter2 {
+  right: 140px;
+  transform: scaleX(-1);
+}
+
+.fighter1 img, .fighter2 img {
+  height: 430px;
+}
+
+.icons {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  bottom: 4px;
+  left: 470px;
+}
+
+.iconsItem {
+  height: 52px;
+  width: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgba(156, 102, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+  border: 4px solid #555555;
+}
+
+.iconsItem:not(:first-child) {
+  border-left: none;
+}
+
+.icon {
+  color: #a0a0a0;
+}
