@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import fighters from '../assets/fighters.json';
+import { getRandomNum } from '../helper';
 import styles from './ChooseHero.module.css';
 
 const ChooseHero = () => {
@@ -54,7 +55,7 @@ const ChooseHero = () => {
       else {setActiveId((prev) => (prev += 10))}
     }
     if (e.key === 'Enter') {
-      const randomNum = Math.floor(Math.random() * Math.floor(fighters.length));
+      const randomNum = getRandomNum(fighters);
       history.push({
         pathname: '/vs',
         state: {fighter1: activeId, fighter2: randomNum}

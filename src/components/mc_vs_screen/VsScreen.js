@@ -3,16 +3,17 @@ import { useHistory } from 'react-router-dom';
 import fighters from '../assets/fighters.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { getRandomNum } from '../helper';
 import styles from './VsScreen.module.css';
 
 const VsScreen = ({ location }) => {
   const history = useHistory();
 
   useEffect(() => {
-    const timeOutId = setTimeout(() => history.push("/"), 10000)
+    const timeOutId = setTimeout(() => history.push('/'), 10000);
     return () => {
-      clearTimeout(timeOutId)
-    }
+      clearTimeout(timeOutId);
+    };
   }, [history]);
 
   const [firstColor, setFirstColor] = useState('#a0a0a0');
@@ -30,26 +31,42 @@ const VsScreen = ({ location }) => {
   });
 
   function onKeyPressed(e) {
-    switch(e.keyCode) {
-      case 81: setFirstColor(changeColor);
-      break;
-      case 87: setSecondColor(changeColor);
-      break;
-      case 69: setThirdColor(changeColor);
-      break;
-      case 82: setFourthColor(changeColor);
-      break;
-      case 84: setFifthColor(changeColor);
-      break;
-      case 89: setSixthColor(changeColor);
-      break;
-      default: return;
+    switch (e.keyCode) {
+      case 81:
+        setFirstColor(changeColor);
+        break;
+      case 87:
+        setSecondColor(changeColor);
+        break;
+      case 69:
+        setThirdColor(changeColor);
+        break;
+      case 82:
+        setFourthColor(changeColor);
+        break;
+      case 84:
+        setFifthColor(changeColor);
+        break;
+      case 89:
+        setSixthColor(changeColor);
+        break;
+      default:
+        return;
     }
   }
 
   function pickColor() {
-    const colors = ['#ff33cc', '#ffff00', '#800080', '#33ccff', '#00ff00', '#ff6600', '#0000cc', '#cc99ff'];
-    const randomNum = Math.floor(Math.random() * Math.floor(colors.length));
+    const colors = [
+      '#ff33cc',
+      '#ffff00',
+      '#800080',
+      '#33ccff',
+      '#00ff00',
+      '#ff6600',
+      '#0000cc',
+      '#cc99ff',
+    ];
+    const randomNum = getRandomNum(colors);
     return colors[randomNum];
   }
 
@@ -76,12 +93,24 @@ const VsScreen = ({ location }) => {
           <img src={fighter2.vs} alt={fighter2.name}></img>
         </div>
         <ul className={styles.icons}>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={firstColor} /></li>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={secondColor} /></li>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={thirdColor} /></li>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={fourthColor} /></li>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={fifthColor} /></li>
-          <li className={styles.iconsItem}><FontAwesomeIcon icon={faCoffee} size="lg" color={sixthColor} /></li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={firstColor} />
+          </li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={secondColor} />
+          </li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={thirdColor} />
+          </li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={fourthColor} />
+          </li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={fifthColor} />
+          </li>
+          <li className={styles.iconsItem}>
+            <FontAwesomeIcon icon={faCoffee} size='lg' color={sixthColor} />
+          </li>
         </ul>
       </div>
     </div>
